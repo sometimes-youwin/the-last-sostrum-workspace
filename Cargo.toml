@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "tls-*"
+]
+
+[workspace.dependencies]
+tls-core = { path = "tls-core" }
